@@ -1,3 +1,5 @@
+CREATE SCHEMA `scheduling` ;
+
 CREATE TABLE `scheduling`.`course` (
   `department` INT NOT NULL,
   `course_number` VARCHAR(45) NOT NULL,
