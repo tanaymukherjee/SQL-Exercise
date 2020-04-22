@@ -89,8 +89,8 @@ e.instructor_name = s.instructor_name where
 s.room_number in ('4211'));
 
 ## Aliases:
-scheduling.classroom cr
-scheduling.course c
-scheduling.employment e
-scheduling.instructor i
-scheduling.schedule s
+scheduling.classroom as cr
+scheduling.course as c
+scheduling.employment as e
+scheduling.instructor as i
+scheduling.schedule as s
